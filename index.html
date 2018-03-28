@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/scoll.css">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <title>Document</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div id="wrap">
+
+        <nav id="gnb">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio1</a></li>
+                <li><a href="#">Portfolio2</a></li>
+                <li><a href="#">Portfolio3</a></li>
+                <li><a href="#">Portfolio4</a></li>
+                <li><a href="#">Portfolio5</a></li>
+                <li><a href="#">Epiloge</a></li>
+            </ul>
+        </nav>
+
+        <nav id="pagerBtn">
+            <ul>
+                <li><a href="#cont1"><img src="images/pager1.png" alt=""></a></li>
+                <li><a href="#cont2"><img src="images/pager2.png" alt=""></a></li>
+                <li><a href="#cont3"><img src="images/pager3.png" alt=""></a></li>
+                <li><a href="#cont4"><img src="images/pager4.png" alt=""></a></li>
+                <li><a href="#cont5"><img src="images/pager5.png" alt=""></a></li>
+                <li><a href="#cont6"><img src="images/pager6.png" alt=""></a></li>
+                <li><a href="#cont6"><img src="images/pager7.png" alt=""></a></li>
+            </ul>
+        </nav>
+
+        <div id="conts1" class="section"><!-- section: 드레그 제이쿼리에 필요 -->
+            <!-- <div class="Mbox">
+                <div class="pic">
+                    <img src="images/my2.png" alt="">
+                </div>
+                <div class="gle">
+                    <p class="jab">꽃보다 <span class="y1">잡초</span> 같은</p>
+                    <p class="de">디자이너 <span class="y2">고 정 일</span> 입니다.</p>
+                </div>
+            </div> -->
+            <div class="moon">
+                <img src="images/moon1.png" alt="">
+            </div>
+        </div>  
+        
+        <div id="conts2" class="section">
+            <div class="Ptext">
+                <div class="itsme">
+                    <img src="images/itsme.png" alt="">
+                </div>
+                <div class="jamok">
+                    <img src="images/profile.png" alt="">
+                </div>
+                <div class="con1">
+                    <div class="naeyong1">
+                        <p class="n1">이름</p><p class="n2">고 정 일</p>
+                    </div>
+                    <div class="naeyong1">
+                        <p class="n1">생년월일</p><p class="n2">1985. 10. 1.</p>
+                    </div>
+                    <div class="naeyong1">
+                        <p class="n1">학력</p><p class="n2">방어진 고등학교 졸업</p>
+                    </div>
+                    <div class="naeyong1">
+                        <p class="n1">교육</p>
+                        <p class="n2">울산그린컴퓨터아카데미<br>
+                                      스마트웹&콘텐츠서비스개발 과정 수료
+                        </p>
+                    </div>
+                </div>
+                <div class="con2">
+                    <div class="naeyong2">
+                        <p class="n3">능력</p>
+                        <p class="n4">포토샵 - 웹/앱 디자인 시안 제작 가능<br>
+                                      일러스트레이터 - 아이콘, 이모티콘 제작 가능<br>
+                                      HTML5/CSS3 - 웹/앱 페이지 디자인 코딩 가능<br><br>
+                                                   Visual Studio Code, Github 사용
+
+                                      
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="conts3" class="section">
+            <img src="images/unicef.png" alt="">
+            
+            <div class="pot1">
+                <div class="ima1">
+                    <img src="images/ima1.png" alt="">
+                </div>
+                <div class=unitext>
+                    <div class="text1">
+                        <p class="a1">제작기간</p><p class="a2">3주간</p>
+                    </div>
+                    <div class="text2">
+                        <p class="a1">컨셉키워드</p><p class="a2">심플함, 깔끔함</p>
+                    </div>
+                    <div class="text3">
+                        <p class="a1">컬러</p><p class="a2"><img src="images/unicolor.png" alt=""></p>
+                    </div>
+                    <div class="text4">
+                        <p class="a1">에필로그</p>
+                        <p class="a2">기존의 유니세프 웹페이지 보다 좀 더<br>
+                                      후원을 이끌어 낼 수 있도록 컨텐츠<br>
+                                      배치에 신경을 썼습니다. 그리고 좀<br>
+                                      더 심플한 디자인이 될 수 있게 노력<br>
+                                      하였습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="jasehi">
+                    <a href="https://kji2795.github.io/unicef/index"><img src="images/jasehi.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="conts4" class="section">
+            <img src="images/lighthouse.png" alt="">
+            <div class="pot2">
+                <div class="ima2">
+                    <img src="images/ima2.png" alt="">
+                </div>
+                <div class=unitext>
+                    <div class="text1">
+                        <p class="a1">제작기간</p><p class="a2">2주간</p>
+                    </div>
+                    <div class="text2">
+                        <p class="a1">컨셉키워드</p><p class="a2">심플함, 차분함</p>
+                    </div>
+                    <div class="text3">
+                        <p class="a1">컬러</p><p class="a2"><img src="images/lightcolor.png" alt=""></p>
+                    </div>
+                    <div class="text4">
+                        <p class="a1">에필로그</p>
+                        <p class="a2">음악 레이블 '라이트하우스'를 개발<br>
+                                      하여 웹 페이지를 만들어 보았습니다.<br>
+                                      뮤지션들의 분위기에 맞게 차분함을<br>
+                                      주려고 노력했습니다. 뮤지션들의 각<br>
+                                      종 정보를 알 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="jasehi">
+                    <a href="https://kji2795.github.io/lighthouse/index"><img src="images/jasehi.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="conts5" class="section">
+            <img src="images/birdcoffee.png" alt="">
+            <div class="pot3">
+                <div class="ima3">
+                    <img src="images/ima3.png" alt="">
+                </div>
+                <div class=unitext>
+                    <div class="text1">
+                        <p class="a1">제작기간</p><p class="a2">2주간</p>
+                    </div>
+                    <div class="text2">
+                        <p class="a1">컨셉키워드</p><p class="a2">부드러움, 편안함</p>
+                    </div>
+                    <div class="text3">
+                        <p class="a1">컬러</p><p class="a2"><img src="images/birdcolor.png" alt=""></p>
+                    </div>
+                    <div class="text4">
+                        <p class="a1">에필로그</p>
+                        <p class="a2">저만의 커피숍 웹 페이지를 만들어 보<br>
+                                      았습니다. 국내의 커피 프랜차이즈 웹<br>
+                                      페이지를 많이 참조하였습니다. 메뉴,<br>
+                                      이벤트, 매장정보 등을 쉽게 접근할 수<br>
+                                      있도록 구현하였습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="jasehi">
+                    <a href="https://kji2795.github.io/birdcoffee/index"><img src="images/jasehi.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="conts6" class="section">
+            <img src="images/sian.png" alt="">
+            <div class="sian">
+                <div class="si1">
+                    <div class="si1-1">
+                        <img src="images/ima4.png" alt="">
+                    </div>
+                    <div class="si1-2">
+                        <a href="https://kji2795.github.io/gukjae/index"><img src="images/jasehi.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="si2">
+                    <div class="si2-1">
+                        <img src="images/ima5.png" alt="">
+                    </div>
+                    <div class="si2-2">
+                        <a href="#"><img src="images/jasehi.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="conts7" class="section">
+            <div class="thanks">
+                <p>감사합니다.</p>
+                <p>열심히 하겠습니다 :)</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+        
+
+        $(function () {      /* 네비게이션 버튼 */
+            var menu = $('#gnb>ul>li');
+            var contents = $('#wrap>div')
+            menu.click(function (event) {
+                event.preventDefault();
+                var tg = $(this);
+                var i = tg.index();
+                var section = contents.eq(i);
+                var tt = section.offset().top;
+                $('html, body').stop().animate({
+                    scrollTop: tt
+                },500);
+            });
+        });
+
+
+        $(function () {        /*  사이드 버튼 */
+            var menu = $('#pagerBtn>ul>li');
+            var contents = $('#wrap>div');
+            menu.click(function (event) {
+                event.preventDefault();
+                var tg = $(this);
+                var i = tg.index();
+                var section = contents.eq(i);
+                var tt = section.offset().top;
+                $('html, body').stop().animate({
+                    scrollTop: tt
+                },500);
+            });
+        });
+
+      /*   $(document).ready(function(){
+            $('#wrap').fullpage({
+                scrollBar: true
+            });
+        });           드레그*/
+</script>
+</html>
