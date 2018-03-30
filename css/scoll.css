@@ -166,9 +166,8 @@ html, body{
 #conts3{
     width: 100%;
     height: 100%;
-    background: rgba(129,212,250,0.2);    
+    background: #fefff3;    
 }
-
 #conts3>img{
     display: block;
     width: 371px;
@@ -176,7 +175,6 @@ html, body{
     position: relative;
     top: 150px;
     margin: 0 auto;
-
 }
 .pot1, .pot2, .pot3{
     width: 1200px;
@@ -296,7 +294,7 @@ html, body{
 #conts5{
     width: 100%;
     height: 100%;
-    background: rgba(129,212,250,0.2);
+    background: #fefff3;
 }
 #conts5>img{
     display: block;
